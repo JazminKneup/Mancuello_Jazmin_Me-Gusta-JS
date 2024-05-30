@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me gusta</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <h1>Network</h1>
+            </nav>
+            <h2>Your Feed</h2>
+        </header>
+        <main>
+            <div class="content">
+                <section class="user-section">
+                    <div class="user">
+                        <img src="img/user-circle.png" alt="user-circle">
+                        <a href="*">Add an Avatar</a>
+                        <h2>James Doe</h2>
+                    </div>
+                </section>
+                <section class="user-feed">
+                    <div class="post">
+                        <div class="post-header">
+                            <h2>Neil M</h2>
+                            <div class="like-container">
+                                <span class="likes" id="likes1">9 like(s) </span>
+                                <button class="like-btn" onclick="likePost(1)">Like</button>
+                            </div>
+                        </div>
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                    <div class="post">
+                        <div class="post-header">
+                            <h2>Nichole K</h2>
+                            <div class="like-container">
+                                <span class="likes" id="likes2">12 like(s)</span>
+                                <button class="like-btn" onclick="likePost(2)">Like</button>
+                            </div>
+                        </div>
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                    <div class="post">
+                        <div class="post-header">
+                            <h2>Jim R</h2>
+                            <div class="like-container">
+                                <span class="likes" id="likes3">9 like(s)</span>
+                                <button class="like-btn" onclick="likePost(3)">Like</button>
+                            </div>
+                        </div>
+                        <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it? </p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="./script/meGusta.js"></script>
+</body>
+</html>
